@@ -1,25 +1,54 @@
-# Do stocks across different and within the same industries move similarly? 
-Project 2: Data Science St Edwards University\
-Dataset Link: https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks/versions/950?select=sp500_stocks.csv \
-Code written by: Jose Marin
+# StockMovementAnalysis
 
-# Introduction
-The Standard and Poor's 500 or S&P 500 is the most famous financial benchmark in the world. This stock market index tracks the performance of 500 large companies listed on stock exchanges in the United States. As of December 31, 2020, more than $5.4 trillion was invested in assets tied to the performance of this index. Because the index includes multiple classes of stock of some constituent companies—for example, Alphabet's Class A (GOOGL) and Class C (GOOG)—there are 505 stocks in the gauge. How is success measured and what factors affect a team’s success? What makes certain teams more successful than others? On one hand, we have trophies and league rankings which could give us a quick measure of performance, true success goes beyond just match results. Consistency, adaptability, tactical execution, and discipline are key factors that contribute to long-term dominance on the field.
+# 📈 Do Stocks Move Together? Industry Trends in the S&P 500
 
-# Data Overview 
-3 datasets: 
-- sp500_companies.csv
-- sp500_stocks.csv
-- sp500_index.csv
+> Data Science Project Exploring Stock Price Correlations  
+> By: Jose Marin
 
-# How to use this dataset
-- Create a time series regression model to predict S&P value and/or stock prices.
-- Explore the most the returns, components, and volatility of the S&P 500 index.
-- Identify high and low-performance stocks among the list.
+## 🚀 Project Overview
 
-# Final Thoughts 
-Stock price prediction remains an extraordinarily difficult challenge. Our project shows that while we can make incremental improvements through feature engineering and careful attention to data distribution, we must maintain realistic expectations about what's possible.
+This project investigates whether stocks across different industries and within the same industries exhibit similar movement patterns, using data from the **S&P 500**. As one of the most renowned financial benchmarks globally, the S&P 500 tracks 500 large U.S. companies, with over $5.4 trillion in assets tied to its performance (as of December 31, 2020). Our analysis dives into stock price trends, volatility, and returns to uncover what drives performance similarities and differences.
 
+We aim to answer: *Do industry factors dominate stock movements, or are there broader market forces at play?* This project explores time series modeling, stock performance metrics, and the challenges of predicting financial data.
 
+---
 
+## 📊 Dataset
 
+- **Source:** [Kaggle S&P 500 Stocks Dataset](https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks/versions/950?select=sp500_stocks.csv)  
+- **Files:**
+  - `sp500_companies.csv` - Company details
+  - `sp500_stocks.csv` - Daily stock prices
+  - `sp500_index.csv` - Index performance
+- **Key Features:**
+  - Stock prices (Open, High, Low, Close)
+  - Volume
+  - Company industry/sector
+  - Date
+
+---
+
+## 🧠 How to Use This Dataset
+
+- Build a **time series regression model** to predict S&P 500 index values or individual stock prices.
+- Analyze **returns, volatility, and correlations** across industries and companies.
+- Identify **high and low-performing stocks** within the S&P 500.
+
+---
+
+## 🔍 Key Insights
+
+- Stock price prediction is inherently challenging due to market noise and external factors.
+- Feature engineering (e.g., moving averages, volatility measures) can improve model performance incrementally.
+- Success in stock analysis requires balancing data-driven insights with realistic expectations about predictability.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python (Pandas, NumPy)
+- Jupyter Notebook
+- Matplotlib / Seaborn (for visualization)
+- Scikit-learn (optional, if modeling is implemented)
+
+---
